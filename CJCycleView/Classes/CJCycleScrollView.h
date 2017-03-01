@@ -6,8 +6,8 @@
 //  Copyright © 2017年 耳东米青. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface CJCycleScrollView : UIView
+@interface CJCycleScrollView : NSObject
 
 @end
