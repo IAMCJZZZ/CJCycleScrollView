@@ -13,7 +13,7 @@
 		2364A2181E66D5C100DEA55D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2364A2161E66D5C100DEA55D /* Main.storyboard */; };
 		2364A21A1E66D5C100DEA55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2364A2191E66D5C100DEA55D /* Assets.xcassets */; };
 		2364A21D1E66D5C100DEA55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2364A21B1E66D5C100DEA55D /* LaunchScreen.storyboard */; };
-		2364A22D1E66E5AB00DEA55D /* CJCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A22C1E66E5AB00DEA55D /* CJCycleScrollView.m */; };
+		2364A2301E66E7FE00DEA55D /* CJCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364A22E1E66E7FE00DEA55D /* CJCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		2364A2191E66D5C100DEA55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2364A21C1E66D5C100DEA55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2364A21E1E66D5C100DEA55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2364A22B1E66E5AB00DEA55D /* CJCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCycleScrollView.h; sourceTree = "<group>"; };
-		2364A22C1E66E5AB00DEA55D /* CJCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCycleScrollView.m; sourceTree = "<group>"; };
+		2364A22E1E66E7FE00DEA55D /* CJCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCycleScrollView.m; sourceTree = "<group>"; };
+		2364A22F1E66E7FE00DEA55D /* CJCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCycleScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		2364A2241E66D5FD00DEA55D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2364A22B1E66E5AB00DEA55D /* CJCycleScrollView.h */,
-				2364A22C1E66E5AB00DEA55D /* CJCycleScrollView.m */,
+				2364A22E1E66E7FE00DEA55D /* CJCycleScrollView.m */,
+				2364A22F1E66E7FE00DEA55D /* CJCycleScrollView.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2364A2151E66D5C100DEA55D /* ViewController.m in Sources */,
-				2364A22D1E66E5AB00DEA55D /* CJCycleScrollView.m in Sources */,
+				2364A2301E66E7FE00DEA55D /* CJCycleScrollView.m in Sources */,
 				2364A2121E66D5C100DEA55D /* AppDelegate.m in Sources */,
 				2364A20F1E66D5C100DEA55D /* main.m in Sources */,
 			);
