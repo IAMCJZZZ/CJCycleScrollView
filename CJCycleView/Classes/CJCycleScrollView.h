@@ -43,17 +43,20 @@
 //代理
 @property (nonatomic, weak) id <CJCycleScrollViewDelegate> delegate;
 
-/*数据源*/
+/** 数据源*/
 @property (strong, nonatomic) NSArray * itemArr;
 
-/*翻页时间间隔(默认不自动滑动)*/
+/** 翻页时间间隔(不设置不能滑动)*/
 @property (nonatomic, assign) CGFloat pageTurnTime;
 
-/** 当前分页控件小圆标颜色 */
+/** 页码指示器圆标颜色 */
+@property (nonatomic, strong) UIColor *dotColor;
+
+/** 页码指示器当前页圆标颜色 */
 @property (nonatomic, strong) UIColor *curDotColor;
 
-/** 分页控件小圆标颜色 */
-@property (nonatomic, strong) UIColor *dotColor;
+/** 页码指示器和底部的距离 */
+@property (nonatomic, assign) CGFloat pagaControlHeight;
 
 /** 是否允许滑动 */
 @property (nonatomic, assign) BOOL scrollEnabled;

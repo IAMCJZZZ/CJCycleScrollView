@@ -86,8 +86,8 @@
 		2364A2241E66D5FD00DEA55D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2364A22E1E66E7FE00DEA55D /* CJCycleScrollView.m */,
 				2364A22F1E66E7FE00DEA55D /* CJCycleScrollView.h */,
+				2364A22E1E66E7FE00DEA55D /* CJCycleScrollView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
