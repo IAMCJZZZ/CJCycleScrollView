@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CJCycleScrollView"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "CJCycleScrollView.CJ"
   s.description  = <<-DESC
 "CJCycleScrollView是一个可以自定义内容且不复用的轮播图"
