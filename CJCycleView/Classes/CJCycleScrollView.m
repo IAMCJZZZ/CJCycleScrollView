@@ -32,6 +32,7 @@
 
 @implementation CJCycleScrollView
 
+// 懒加载
 - (NSArray *)items
 {
     if (!_items) {
