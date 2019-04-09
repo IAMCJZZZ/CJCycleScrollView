@@ -1,5 +1,5 @@
 # CJCycleScrollView
-
+CJ
 ###自定义内容、不复用的轮播图
 pod导入
 pod 'CJCycleScrollView'
